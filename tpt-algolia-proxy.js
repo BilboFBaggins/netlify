@@ -1,67 +1,64 @@
-// Curated education keywords that actually exist in TPT
+// Curated keyword lists by education category
+// These are common, high-potential keywords for Bilbo's journalism & English niche
 const educationKeywordsByCategory = {
-  all: [
-    'essay', 'test prep', 'grammar', 'vocabulary', 'writing', 'reading comprehension',
-    'AP exam', 'SAT practice', 'ACT prep', 'IB exam', 'college essay',
-    'poetry', 'novel study', 'short story', 'drama', 'literature',
-    'character analysis', 'theme analysis', 'literary analysis', 'symbolism', 'literary devices',
-    'persuasive writing', 'argumentative essay', 'narrative writing', 'expository', 'descriptive',
-    'grammar worksheet', 'punctuation', 'sentence structure', 'parts of speech', 'verb tense',
-    'interview', 'feature story', 'news writing', 'opinion writing', 'journalism',
-    'AP style', 'media literacy', 'presentation', 'public speaking', 'debate',
-    'social studies', 'history', 'government', 'economics', 'psychology',
-    'STEM', 'science', 'math', 'problem solving', 'critical thinking',
-    'classroom management', 'lesson plan', 'rubric', 'assessment', 'formative assessment',
-    'differentiation', 'ELL', 'special education', 'gifted', 'intervention',
-    'engagement', 'motivation', 'culture', 'diversity', 'social emotional',
-    'project based learning', 'inquiry', 'Socratic method', 'discussion', 'Bloom\'s taxonomy',
-    'close reading', 'annotation', 'text evidence', 'thesis statement', 'outline',
-    'comma rules', 'semicolon', 'apostrophe', 'capitalization', 'spelling',
-    'Romeo and Juliet', 'Macbeth', 'Hamlet', 'Great Gatsby', 'To Kill a Mockingbird',
-    'Of Mice and Men', 'Lord of the Flies', 'Hunger Games', '1984', 'Animal Farm',
-    'poetry analysis', 'haiku', 'sonnet', 'rhyme scheme', 'meter',
-    'persuasion', 'rhetoric', 'ethos pathos logos', 'propaganda', 'bias',
-    'research', 'MLA format', 'citation', 'works cited', 'source evaluation',
-    'phonics', 'sight words', 'fluency', 'comprehension strategy', 'vocabulary strategy',
-    'benchmark', 'SBAC', 'STAAR', 'SOL', 'common core',
-    'distance learning', 'Google Classroom', 'digital', 'remote', 'hybrid'
-  ],
   ap: [
-    'AP exam', 'AP practice', 'AP review', 'AP multiple choice', 'AP free response',
-    'AP literature', 'AP language', 'AP US history', 'AP world history', 'AP European history',
-    'AP biology', 'AP chemistry', 'AP physics', 'AP calculus', 'AP statistics',
-    'AP psychology', 'AP economics', 'AP government', 'AP seminar', 'AP research',
-    'AP essay', 'AP test prep', 'AP study guide', 'AP practice test', 'AP exam prep'
+    'AP English', 'AP Language', 'AP Literature', 'AP Seminar', 'AP Research',
+    'AP essay', 'AP rhetoric', 'AP argumentation', 'AP synthesis essay',
+    'AP free response', 'AP rhetorical analysis', 'AP multiple choice',
+    'AP exam prep', 'AP practice', 'AP study guide', 'AP review',
+    'AP nonfiction', 'AP fiction analysis', 'AP poetry', 'AP drama',
+    'AP writing', 'AP reading', 'AP comprehension', 'AP test prep'
   ],
   ib: [
-    'IB exam', 'IB practice', 'IB revision', 'IB study guide', 'IB test prep',
-    'IB English', 'IB history', 'IB economics', 'IB biology', 'IB chemistry',
-    'IB physics', 'IB mathematics', 'IB psychology', 'IB theory of knowledge',
-    'IB extended essay', 'IB internal assessment', 'IB IA', 'IB past paper'
+    'IB English', 'IB Language', 'IB Literature', 'IB Paper 1', 'IB Paper 2',
+    'IB HL', 'IB SL', 'IB essay', 'IB exam', 'IB study guide',
+    'IB practice', 'IB preparation', 'IB review', 'IB assessment',
+    'IB written task', 'IB interactive oral', 'IB commentary',
+    'IB analysis', 'IB writing', 'IB reading comprehension'
   ],
   writing: [
-    'essay', 'essay outline', 'essay rubric', 'essay prompt', 'essay structure',
-    'argumentative essay', 'persuasive essay', 'narrative essay', 'expository essay', 'analytical essay',
-    'thesis statement', 'topic sentence', 'transition words', 'evidence analysis', 'paragraph',
-    'introduction', 'conclusion', 'body paragraph', 'outline', 'brainstorm',
-    'revision', 'editing', 'grammar', 'punctuation', 'sentence variety'
+    'essay writing', 'persuasive essay', 'expository essay', 'narrative essay',
+    'argumentative essay', 'compare and contrast', 'five paragraph essay',
+    'creative writing', 'descriptive writing', 'paragraph writing',
+    'essay structure', 'thesis statement', 'topic sentence', 'essay outline',
+    'body paragraphs', 'conclusion writing', 'introduction writing',
+    'essay rubric', 'writing process', 'revision', 'editing', 'proofreading'
   ],
   literature: [
-    'novel study', 'short story', 'poetry', 'drama', 'literary analysis',
-    'character analysis', 'theme analysis', 'symbolism', 'literary devices', 'figurative language',
-    'Romeo and Juliet', 'Macbeth', 'Hamlet', 'Great Gatsby', 'To Kill a Mockingbird',
-    'Of Mice and Men', 'Lord of the Flies', '1984', 'Animal Farm', 'Hunger Games',
-    'irony', 'foreshadowing', 'flashback', 'point of view', 'tone and mood'
+    'novel study', 'short story', 'poetry analysis', 'drama', 'Shakespeare',
+    'To Kill a Mockingbird', 'The Great Gatsby', 'Of Mice and Men',
+    'Romeo and Juliet', 'Macbeth', 'Hamlet', 'A Doll House',
+    'character analysis', 'theme analysis', 'symbolism', 'figurative language',
+    'literary devices', 'plot analysis', 'setting', 'point of view',
+    'literary analysis', 'book club', 'reading comprehension'
   ],
   journalism: [
-    'journalism', 'interview', 'feature story', 'news writing', 'opinion writing',
-    'sports writing', 'AP style', 'press release', 'news lead', 'inverted pyramid',
-    'journalism rubric', 'interview questions', 'fact checking', 'media literacy', 'bias'
+    'journalism', 'news writing', 'feature writing', 'opinion writing',
+    'journalism basics', 'newsroom', 'newspaper', 'reporting',
+    'interviewing skills', 'media literacy', 'fact checking',
+    'journalistic writing', 'news article', 'journalism assignment',
+    'journalism unit', 'journalism curriculum', 'student journalism',
+    'yearbook', 'literary magazine', 'publication', 'journalism ethics'
   ],
   testprep: [
-    'test prep', 'SAT prep', 'SAT practice', 'SAT reading', 'SAT writing', 'SAT math',
-    'ACT prep', 'ACT practice', 'ACT English', 'ACT reading', 'ACT science',
-    'college essay', 'college readiness', 'standardized test', 'exam prep', 'practice test'
+    'test prep', 'SAT prep', 'ACT prep', 'reading comprehension',
+    'grammar review', 'vocabulary', 'test strategy', 'test taking skills',
+    'practice test', 'exam preparation', 'reading test',
+    'writing test', 'multiple choice', 'standardized test',
+    'test review', 'benchmark test', 'assessment prep'
+  ],
+  all: [
+    'essay', 'writing', 'reading', 'literature', 'vocabulary',
+    'grammar', 'speaking', 'listening', 'comprehension', 'analysis',
+    'test prep', 'AP', 'IB', 'journalism', 'news writing',
+    'creative writing', 'expository', 'persuasive', 'narrative',
+    'research', 'citation', 'MLA', 'APA', 'Chicago style',
+    'debate', 'discussion', 'Socratic seminar', 'critical thinking',
+    'annotate', 'close reading', 'inference', 'summary', 'paraphrase',
+    'argument', 'evidence', 'counterargument', 'rhetoric', 'persuasion',
+    'revision', 'editing', 'proofreading', 'publication',
+    'novel', 'short story', 'poetry', 'drama', 'nonfiction',
+    'character', 'theme', 'plot', 'setting', 'symbolism'
   ]
 };
 
@@ -76,165 +73,196 @@ exports.handler = async (event, context) => {
 
   try {
     const body = JSON.parse(event.body);
-    const { action, keyword, category = 'all', limit = 50 } = body;
+    const { action, keyword, category, limit } = body;
 
-    // Handle category-based discovery
-    if (action === 'getIndexedKeywords') {
-      const keywordList = educationKeywordsByCategory[category] || educationKeywordsByCategory.all;
-      const selectedKeywords = keywordList.slice(0, Math.min(limit, keywordList.length));
-
-      // Batch query these keywords
-      const results = [];
-      for (const kw of selectedKeywords) {
-        try {
-          const response = await fetch(
-            'https://SBEKGJSJ8M-dsn.algolia.net/1/indexes/*/queries',
-            {
-              method: 'POST',
-              headers: {
-                'X-Algolia-Application-Id': 'SBEKGJSJ8M',
-                'X-Algolia-API-Key': 'ce17b545c6ba0432cf638e0c29ee64ef',
-                'Content-Type': 'application/json',
-              },
-              body: JSON.stringify({
-                requests: [
-                  {
-                    indexName: 'Resource Suggestions',
-                    params: `query=${encodeURIComponent(kw)}&hitsPerPage=1`,
-                  },
-                ],
-              }),
-            }
-          );
-
-          if (response.ok) {
-            const data = await response.json();
-            if (data.results && data.results[0] && data.results[0].hits && data.results[0].hits.length > 0) {
-              const hit = data.results[0].hits[0];
-              const supply = hit.Resources?.exact_nb_hits;
-              const popularity = hit.popularity || 1;
-              const hasSupply = supply != null;
-
-              const supplyDisplay = hasSupply ? supply : 'n/a';
-              const gaScore = hasSupply ? (supply / popularity).toFixed(2) : 'n/a';
-              const demandPer1k = hasSupply && supply > 0 ? ((popularity / supply) * 1000).toFixed(0) : 'n/a';
-              const difficulty = hasSupply ? Math.log(supply).toFixed(2) : 'n/a';
-
-              results.push({
-                keyword: kw,
-                popularity,
-                supply: supplyDisplay,
-                difficulty,
-                gaScore,
-                demandPer1k,
-              });
-            }
-          }
-        } catch (err) {
-          console.error(`Error querying ${kw}:`, err);
-        }
+    // ============================================================
+    // EXISTING: Handle single keyword search (backward compatible)
+    // ============================================================
+    if (!action || action === 'search') {
+      if (!keyword || keyword.trim() === '') {
+        return {
+          statusCode: 400,
+          body: JSON.stringify({ error: 'Keyword required' }),
+        };
       }
 
-      // Sort by GA Score (ascending = best opportunities)
-      results.sort((a, b) => {
-        const scoreA = parseFloat(a.gaScore) || Infinity;
-        const scoreB = parseFloat(b.gaScore) || Infinity;
-        return scoreA - scoreB;
+      const encodedKeyword = encodeURIComponent(keyword).replace(/'/g, '%27');
+      
+      // Call TPT's Algolia API
+      const response = await fetch(
+        'https://SBEKGJSJ8M-dsn.algolia.net/1/indexes/*/queries',
+        {
+          method: 'POST',
+          headers: {
+            'X-Algolia-Application-Id': 'SBEKGJSJ8M',
+            'X-Algolia-API-Key': 'ce17b545c6ba0432cf638e0c29ee64ef',
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            requests: [
+              {
+                indexName: 'Resource Suggestions',
+                params: `query=${keyword}&hitsPerPage=20`,
+              },
+            ],
+          }),
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error(`TPT API returned ${response.status}`);
+      }
+
+      const data = await response.json();
+      
+      // Extract and process results
+      if (!data.results || !data.results[0] || !data.results[0].hits) {
+        return {
+          statusCode: 200,
+          body: JSON.stringify({ hits: [], message: 'No results found' }),
+        };
+      }
+
+      const hits = data.results[0].hits;
+      
+      // Process hits into our format
+      const processed = hits.map((hit) => {
+        const supply = hit.Resources?.exact_nb_hits;
+        const popularity = hit.popularity || 1;
+        const hasSupply = supply != null;
+        
+        const supplyDisplay = hasSupply ? supply : 'n/a';
+        const gaScore = hasSupply ? (supply / popularity).toFixed(2) : 'n/a';
+        const demandPer1k = hasSupply && supply > 0 ? ((popularity / supply) * 1000).toFixed(0) : 'n/a';
+        const difficulty = hasSupply ? Math.log(supply).toFixed(2) : 'n/a';
+        
+        return {
+          keyword: hit.query,
+          popularity,
+          supply: supplyDisplay,
+          difficulty,
+          gaScore,
+          demandPer1k,
+        };
       });
 
       return {
         statusCode: 200,
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+        },
         body: JSON.stringify({
-          keywords: results,
-          category,
-          count: results.length,
+          hits: processed,
+          seedTerm: keyword,
           timestamp: new Date().toISOString(),
         }),
       };
     }
 
-    // Handle keyword search (existing logic)
-    const { keyword } = body;
-    
-    if (!keyword || keyword.trim() === '') {
-      return {
-        statusCode: 400,
-        body: JSON.stringify({ error: 'Keyword required' }),
-      };
-    }
+    // ============================================================
+    // NEW: Handle batch category keyword discovery
+    // ============================================================
+    if (action === 'getIndexedKeywords') {
+      if (!category || !educationKeywordsByCategory[category]) {
+        return {
+          statusCode: 400,
+          body: JSON.stringify({ 
+            error: 'Valid category required. Options: ap, ib, writing, literature, journalism, testprep, all' 
+          }),
+        };
+      }
 
-    const encodedKeyword = encodeURIComponent(keyword).replace(/'/g, '%27');
-    
-    // Call TPT's Algolia API
-    const response = await fetch(
-      'https://SBEKGJSJ8M-dsn.algolia.net/1/indexes/*/queries',
-      {
-        method: 'POST',
+      const keywords = educationKeywordsByCategory[category];
+      const limitNum = Math.min(limit || 100, keywords.length);
+      const keywordsToFetch = keywords.slice(0, limitNum);
+
+      // Build batch request for all keywords at once
+      const requests = keywordsToFetch.map((kw) => ({
+        indexName: 'Resource Suggestions',
+        params: `query=${encodeURIComponent(kw)}&hitsPerPage=1`,
+      }));
+
+      // Call TPT's Algolia API with batch request
+      const batchResponse = await fetch(
+        'https://SBEKGJSJ8M-dsn.algolia.net/1/indexes/*/queries',
+        {
+          method: 'POST',
+          headers: {
+            'X-Algolia-Application-Id': 'SBEKGJSJ8M',
+            'X-Algolia-API-Key': 'ce17b545c6ba0432cf638e0c29ee64ef',
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ requests }),
+        }
+      );
+
+      if (!batchResponse.ok) {
+        throw new Error(`TPT API batch request failed: ${batchResponse.status}`);
+      }
+
+      const batchData = await batchResponse.json();
+
+      // Process results
+      if (!batchData.results || !Array.isArray(batchData.results)) {
+        return {
+          statusCode: 200,
+          body: JSON.stringify({ keywords: [], message: 'No results found' }),
+        };
+      }
+
+      const processedKeywords = batchData.results
+        .map((result, index) => {
+          if (!result.hits || result.hits.length === 0) {
+            return null;
+          }
+
+          const hit = result.hits[0];
+          const supply = hit.Resources?.exact_nb_hits;
+          const popularity = hit.popularity || 1;
+          const hasSupply = supply != null;
+
+          const supplyDisplay = hasSupply ? supply : 'n/a';
+          const gaScore = hasSupply ? (supply / popularity).toFixed(2) : 'n/a';
+          const demandPer1k = hasSupply && supply > 0 ? ((popularity / supply) * 1000).toFixed(0) : 'n/a';
+          const difficulty = hasSupply ? Math.log(supply).toFixed(2) : 'n/a';
+
+          return {
+            keyword: hit.query,
+            popularity: parseInt(popularity) || 0,
+            supply: supplyDisplay,
+            difficulty,
+            gaScore: parseFloat(gaScore),
+            demandPer1k,
+          };
+        })
+        .filter((item) => item !== null)
+        // Sort by GA Score ascending (lower = better opportunity)
+        .sort((a, b) => {
+          const aScore = typeof a.gaScore === 'number' ? a.gaScore : Infinity;
+          const bScore = typeof b.gaScore === 'number' ? b.gaScore : Infinity;
+          return aScore - bScore;
+        });
+
+      return {
+        statusCode: 200,
         headers: {
-          'X-Algolia-Application-Id': 'SBEKGJSJ8M',
-          'X-Algolia-API-Key': 'ce17b545c6ba0432cf638e0c29ee64ef',
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          requests: [
-            {
-              indexName: 'Resource Suggestions',
-              params: `query=${keyword}&hitsPerPage=20`,
-            },
-          ],
+          keywords: processedKeywords,
+          category,
+          count: processedKeywords.length,
+          timestamp: new Date().toISOString(),
         }),
-      }
-    );
-
-    if (!response.ok) {
-      throw new Error(`TPT API returned ${response.status}`);
-    }
-
-    const data = await response.json();
-    
-    // Extract and process results
-    if (!data.results || !data.results[0] || !data.results[0].hits) {
-      return {
-        statusCode: 200,
-        body: JSON.stringify({ hits: [], message: 'No results found' }),
       };
     }
 
-    const hits = data.results[0].hits;
-    
-    // Process hits into our format
-    const processed = hits.map((hit) => {
-      const supply = hit.Resources?.exact_nb_hits;
-      const popularity = hit.popularity || 1;
-      const hasSupply = supply != null;
-      
-      const supplyDisplay = hasSupply ? supply : 'n/a';
-      const gaScore = hasSupply ? (supply / popularity).toFixed(2) : 'n/a';
-      const demandPer1k = hasSupply && supply > 0 ? ((popularity / supply) * 1000).toFixed(0) : 'n/a';
-      const difficulty = hasSupply ? Math.log(supply).toFixed(2) : 'n/a';
-      
-      return {
-        keyword: hit.query,
-        popularity,
-        supply: supplyDisplay,
-        difficulty,
-        gaScore,
-        demandPer1k,
-      };
-    });
-
+    // Unknown action
     return {
-      statusCode: 200,
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        hits: processed,
-        seedTerm: keyword,
-        timestamp: new Date().toISOString(),
-      }),
+      statusCode: 400,
+      body: JSON.stringify({ error: 'Unknown action. Use "search" or "getIndexedKeywords"' }),
     };
+
   } catch (error) {
     console.error('Proxy error:', error);
     return {
