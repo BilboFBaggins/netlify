@@ -62,11 +62,27 @@ const educationKeywordsByCategory = {
   ]
 };
 
+const corsHeaders = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Methods': 'POST, OPTIONS',
+  'Access-Control-Allow-Headers': 'Content-Type',
+};
+
 exports.handler = async (event, context) => {
+  // Handle CORS preflight
+  if (event.httpMethod === 'OPTIONS') {
+    return {
+      statusCode: 200,
+      headers: corsHeaders,
+      body: '',
+    };
+  }
+
   // Only allow POST
   if (event.httpMethod !== 'POST') {
     return {
       statusCode: 405,
+      headers: corsHeaders,
       body: JSON.stringify({ error: 'Method not allowed' }),
     };
   }
@@ -82,6 +98,7 @@ exports.handler = async (event, context) => {
       if (!keyword || keyword.trim() === '') {
         return {
           statusCode: 400,
+          headers: corsHeaders,
           body: JSON.stringify({ error: 'Keyword required' }),
         };
       }
@@ -119,6 +136,7 @@ exports.handler = async (event, context) => {
       if (!data.results || !data.results[0] || !data.results[0].hits) {
         return {
           statusCode: 200,
+          headers: corsHeaders,
           body: JSON.stringify({ hits: [], message: 'No results found' }),
         };
       }
@@ -150,6 +168,7 @@ exports.handler = async (event, context) => {
         statusCode: 200,
         headers: {
           'Content-Type': 'application/json',
+          ...corsHeaders,
         },
         body: JSON.stringify({
           hits: processed,
@@ -166,6 +185,7 @@ exports.handler = async (event, context) => {
       if (!category || !educationKeywordsByCategory[category]) {
         return {
           statusCode: 400,
+          headers: corsHeaders,
           body: JSON.stringify({ 
             error: 'Valid category required. Options: ap, ib, writing, literature, journalism, testprep, all' 
           }),
@@ -206,6 +226,7 @@ exports.handler = async (event, context) => {
       if (!batchData.results || !Array.isArray(batchData.results)) {
         return {
           statusCode: 200,
+          headers: corsHeaders,
           body: JSON.stringify({ keywords: [], message: 'No results found' }),
         };
       }
@@ -247,6 +268,7 @@ exports.handler = async (event, context) => {
         statusCode: 200,
         headers: {
           'Content-Type': 'application/json',
+          ...corsHeaders,
         },
         body: JSON.stringify({
           keywords: processedKeywords,
@@ -260,6 +282,7 @@ exports.handler = async (event, context) => {
     // Unknown action
     return {
       statusCode: 400,
+      headers: corsHeaders,
       body: JSON.stringify({ error: 'Unknown action. Use "search" or "getIndexedKeywords"' }),
     };
 
@@ -267,6 +290,7 @@ exports.handler = async (event, context) => {
     console.error('Proxy error:', error);
     return {
       statusCode: 500,
+      headers: corsHeaders,
       body: JSON.stringify({ error: error.message }),
     };
   }
